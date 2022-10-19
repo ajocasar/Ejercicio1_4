@@ -60,11 +60,11 @@
                         Clicked="btnFoto_Clicked" 
                         Margin="0,0,0,0" 
                         WidthRequest="150" 
-                    CornerRadius="5"
+                    CornerRadius="100"
                     BackgroundColor="#4BA7FC"
                     TextColor="White"
                     TextTransform="None"
-                    FontSize="16"
+                    FontSize="20"
                         HorizontalOptions="Center"/>
 
                 <Button
@@ -74,11 +74,11 @@
                         x:Name="btnSQlite"
                         Clicked="btnSQlite_Clicked" 
                         Margin="0,0,0,0" 
-                     CornerRadius="5"
+                     CornerRadius="100"
                     BackgroundColor="#4BA7FC"
                     TextColor="White"
                     TextTransform="None"
-                    FontSize="16"
+                    FontSize="20"
                         WidthRequest="150" 
                         HorizontalOptions="Center" />
             </Grid>

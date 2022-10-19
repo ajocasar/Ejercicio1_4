@@ -8,16 +8,18 @@
         </ResourceDictionary>
     </ContentPage.Resources>
     <ContentPage.Content>
-        <StackLayout Orientation="Vertical">
+        <StackLayout Orientation="Vertical" Background="#76D7C4
+">
             <Frame 
-                BackgroundColor="DarkGreen"
+                BackgroundColor="#D1F2EB
+"
                 Padding="20"
                  CornerRadius="0"
                 >
                 
                 <Label
-                    Text="Vista de la Imagen"
-                    TextColor="White"
+                    Text="Imagen"
+                    TextColor="black"
                     FontSize="20"
                     HorizontalTextAlignment="Center" 
                     BackgroundColor="Transparent"/>
