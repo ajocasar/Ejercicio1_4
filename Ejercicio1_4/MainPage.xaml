@@ -15,7 +15,9 @@
 
             <StackLayout Orientation="Vertical">
             <Frame BackgroundColor="#363EE0" Padding="20" CornerRadius="0">
-                    <Label Text="Ejercicio 1.4 ARNOL CABALLERO 201110210044, DANIEL PAREDES 201720120016" 
+                    <Label Text=" ARNOL CABALLERO 201110210044
+                            DANIEL PAREDES 201720120016
+                           Ejercicio 1.4 Guardar empleado con foto a SQLite." 
                            HorizontalTextAlignment="Center" 
                            TextColor="White" 
                            FontSize="20"/>
@@ -32,19 +34,19 @@
                        Padding="20,10,30,0"/>
                 
                 <Entry x:Name="txtnombre" 
-                       Placeholder="ingreso su nombre"
+                       Placeholder="Ingresar nombre"
                        Margin="20,-5,30,0" 
                        FontSize="16" 
                        TextColor="Black"
                        Text="{Binding nombres}"/>
                 
-                <Label Text="Descripcion" 
+                <Label Text="Descripción" 
                        FontSize="16" 
                        TextColor="Black"
                        Padding="20,10,30,0"/>
                 
                 <Entry x:Name="txtdescripcion" 
-                       Placeholder="ingrese una descripcion"
+                       Placeholder="Ingresar descripción"
                        Margin="20,-5,30,0" 
                        FontSize="16" 
                        Text="{Binding descripcion}"/>
